@@ -1,0 +1,26 @@
+{
+  "name": "opxcore/authorization-interface",
+  "description": "OpxCore authorization interface.",
+  "type": "library",
+  "keywords": [
+    "opxcore",
+    "authorization"
+  ],
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/opxcore/authorization-interface/issues",
+    "source": "https://github.com/opxcore/authorization-interface"
+  },
+  "authors": [
+    {
+      "name": "Lozovoy Vyacheslav",
+      "email": "opxcore@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "OpxCore\\Interfaces\\Authorization": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
