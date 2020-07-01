@@ -19,7 +19,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "OpxCore\\Interfaces\\Authorization": "src/"
+      "OpxCore\\Interfaces\\Authorization\\": "src/"
     }
   },
   "minimum-stability": "dev"
