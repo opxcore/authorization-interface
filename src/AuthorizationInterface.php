@@ -21,5 +21,5 @@ interface AuthorizationInterface
      *
      * @return  AuthorizationResponse
      */
-    public static function check(?array $permissions, array $actions = ['create', 'read', 'update', 'delete']): AuthorizationResponse;
+    public function check(?array $permissions, array $actions = ['create', 'read', 'update', 'delete']): AuthorizationResponse;
 }
